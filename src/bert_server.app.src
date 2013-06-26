@@ -1,0 +1,9 @@
+{application, bert_server,
+ [
+  {description, "BERT RPC Server"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {mod, { ernie_server_app, []}},
+  {env, []}
+ ]}.
